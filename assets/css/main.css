@@ -6,3 +6,68 @@ Colors:
 #75726C;
 #EDE9E2
 */
+*{
+	margin: 0;
+	padding: 0;    /*Borrar todos los margenes que entrega por defecto el navegados*/
+}
+
+body {
+	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
+	background-size: cover; /* la imagen se escale de forma automatica*/
+
+/* creacion de la barra menu*/
+}
+
+header {  /* barra rosada*/
+	background: #E54E79;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	
+}
+
+header nav {
+	background: #E54E79;
+	overflow: hidden;  /* me limpia el float life*/
+	position:fixed;
+	position: relative;
+	top: -45px; 
+	bottom: 0;
+	right:0;
+	left: 80%;
+}
+
+header nav ul {    /*me quita los puntitos del enlace en el menu */
+	list-style:none;
+
+
+}
+
+header nav ul li {
+	float:left; /* Esto hara que todos se apilen uno al lado del otro*/
+	
+}
+
+header nav ul li a {
+	padding:10px 20px;
+	display: block;   /*permite que tenga un padding hacia arriba y hacia abajo si no se colocara el padding no funcionaria*/
+	color: #fff;
+	text-decoration: none;
+
+}
+
+header nav ul li a:hover {  /*Darle efecto al menu*/
+
+	background: #E56385;
+	
+}
+
+header div img {
+	width: 70px;
+	height: 50px; 
+	position: relative;
+	top: 5px;
+	bottom:;
+	right:;
+	left: 200px;
+}
