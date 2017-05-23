@@ -12,10 +12,10 @@ Colors:
 }
 
 body {
-	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
+	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg') ;
 	background-size: cover; /* la imagen se escale de forma automatica*/
-
-/* creacion de la barra menu*/
+	
+	/* creacion de la barra menu*/
 }
 
 header {  /* barra rosada*/
@@ -71,3 +71,78 @@ header div img {
 	right:;
 	left: 200px;
 }
+/* empiezo con la caja y campo de telefono*/
+
+section {
+	background: #EDE9E2;
+	width: 500px;
+	height: 400px;
+	position:relative;
+	top: 80px; 
+	left: 800px;
+	margin: 0;
+	padding:0;
+}
+section h1{
+	font-size: 30px;
+	position:absolute;
+	width:400px;
+	top: 35px;
+	bottom: 100px;
+	left: 10px;
+	color: #00B2A9;
+}
+
+section div label{   /*sign up to drive lyft*/
+	font-size: 16px;
+	position:absolute;
+	top:35px; 
+	bottom:0;
+	right: 50px;
+	left: 10px;
+	color:#75726C;
+}
+
+input {  /*campo vacio phone number*/
+	background-color: #EDE9E2;
+	border: none;
+	position:absolute;
+	top: 70px; 
+	bottom: ;
+	right: ;
+	left: 0;
+	width: 300px; 
+	height: 50px;
+	color:#EDE9E2;
+}
+
+input hr {
+	height: 2px;
+	background-color: #75726C;
+	position:relative;
+	top: ; 
+	bottom: ;
+	right: ;
+	left: 0;
+}
+
+
+
+button {
+	background-color:#E54E79;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	position: absolute;
+	top: 150px;
+	bottom: 0;
+	right: 50px;
+	left: 20px;
+	width: 200px ; 
+	height: 50px;
+	
+}
+
+
+
