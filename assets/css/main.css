@@ -9,15 +9,18 @@ Colors:
 *{
 	margin: 0;
 	padding: 0;    /*Borrar todos los margenes que entrega por defecto el navegados*/
+	font-family: 'Raleway', sans-serif;
 	
 }
 
 body {
-	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg') ;
+	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
+	background-repeat:no-repeat;
 	background-size: cover; /* la imagen se escale de forma automatica*/
 	
-	/* creacion de la barra menu*/
 }
+	/* creacion de la barra menu*/
+
 
 header {  /* barra rosada*/
 	background: #E54E79;
@@ -30,7 +33,7 @@ header {  /* barra rosada*/
 
 header nav {
 	background: #E54E79;
-	overflow: hidden;  /* me limpia el float life*/
+	overflow: hidden;  /* me limpia el float life contenedor que envuelve*/
 	position:fixed;
 	position: relative;
 	top: -45px; 
@@ -81,7 +84,7 @@ section {
 	height: 350px;
 	position:relative;
 	top: 80px; 
-	left: 850px;
+	left: 825px;
 	margin: 0;
 	padding:0;
 }
@@ -90,7 +93,7 @@ section {
 	margin:-1px;
 }
 section h1{
-	font-size: 30px;
+	font-size: 20px;
 	position:absolute;
 	width:400px;
 	top: 50px;
@@ -100,15 +103,15 @@ section h1{
 }
 
 section div label{   /*sign up to drive lyft*/
-	font-size: 16px;
+	font-size: 12px;
 	position:absolute;
 	top:35px; 
 	bottom:0;
-	right: 50px;
-	left: 10px;
+	right: 0;
+	left: -1px;
 	color:#75726C;
 }
-
+/*--------------------------------campo vacio phone number*-------------------------------------------------*/
 input {  /*campo vacio phone number*/
 	background-color: #EDE9E2;
 	border: none;
@@ -120,9 +123,9 @@ input {  /*campo vacio phone number*/
 	width: 300px; 
 	height: 50px;
 	color:#000;
-	}
+}
 
- hr {
+hr {
 	height: 0.5px;
 	background-color: #75726C;
 	margin-top: 30%;
@@ -145,27 +148,152 @@ button {
 	box-shadow: 2px 2px 5px #500;
 }
 
-p  {
-font-size: 12PX;
+h2  {
+	font-size: 12PX;
 	position: absolute;
 	bottom: -10px;
 	left: 5px;
-color:#75726C;
+	color:#75726C;
 }
 
 h3 {
-font-size: 12PX;
+	font-size: 12PX;
 	position: absolute;
 	bottom: -40px;
-left: 5px;
-color: #75726C;
+	left: 5px;
+	color: #75726C;
+}
+
+div {
+	background:
+	height: 800px;
+
+}
+/*--------------------------------------caja celeste */
+.contenedor {
+	
+	position: relative;
+	
+}
+
+.caja {    
+	width: 100%;
+	height: 1000px;
+	background-color: #00B2A9;
+	position: absolute;
+	top: 246px;
+	right: 0px;
+	bottom: 600px;
+	l
+
+}
+/*------------------------------------------caja blanca con frase */
+.caja2 { 
+	width: 100%;
+	height: 100px;
+	background-color: #EDE9E2;
+	position: relative;
+	top: 340px;
+	right: 0px;
+	
+}
+
+ p {
+    color: #75726C;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	bottom: 200px;
+	left: 425px;
+}
+/*-----------------------------caja blanca con coordenadas-----------------*/
+.caja3 {
+	width: 1000px;
+	height: 300px;
+	background-color: #EDE9E2;
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	bottom: 200px;
+	left: 100px;
 }
 
 
 
+#campovacio2  {  /* COORDINATE X*/
+	position: absolute;
+	left: 200px;
+	top: 260px;
+
+}
+
+.bordex {      /*borde que va abajo de x-coordenadas*/
+   width: 416px;
+   height:1px; 
+   background-color: #75726C;
+   position:relative;
+   top:300px;
+   left:646px;
+   border:none; 
+}
+
+
+#campovacio3 { /* COORDINATE y*/
+    position: absolute;
+	left: 700px;
+	top: 250px;
+	
+}
+
+.bordey {      /*borde que va abajo de x-coordenadas*/
+ width: 416px;
+   height:1px; 
+   background-color: #75726C;
+   position:relative;
+   top:-68px;
+   left:145px;
+   border:none; 
+
+}
 
 
 
+.boton2 {
+	width: 900px;
+	position: absolute;
+	left: 152px;
+	top:348px;
+}
+
+/*------------------------------------ iconos de autos*/
+
+#auto1 {
+	position: absolute;
+	left: 640px;
+	top:250px;
+    color: #75726C;
+	
+}
+
+#auto2 {
+	position: absolute;
+	left: 140px;
+	top:254px;
+    color: #75726C;
+
+}
+
+
+/* -----------------------------------------Diseño del footer*/
+
+.contenedor-footer {
+	width: 200%;
+	height: 400px;
+	background: #75726C;
+}
+	
 
 
 
